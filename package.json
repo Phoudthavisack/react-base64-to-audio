@@ -1,6 +1,6 @@
 {
-  "homepage": "https://phoudthavisack.github.io/",
-  "name": "base64toaudio",
+  "homepage": "https://phoudthavisack.github.io/base64-2-audio",
+  "name": "base64-2-audio",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
