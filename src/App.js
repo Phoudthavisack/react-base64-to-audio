@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import packageJson from "../package.json";
 
 function App() {
   const [text, setText] = useState("");
@@ -74,7 +75,7 @@ function App() {
         </audio>
       </div>
       <div style={{ height: 40, color: "#777777" }}>
-        © Copyright by Phoudthavisack
+        © Copyright by Phoudthavisack ({packageJson.version})
       </div>
     </div>
   );
